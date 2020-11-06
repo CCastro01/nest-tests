@@ -8,4 +8,20 @@ export class UsersService {
         {id: 2, name: "user2", email: "user2@dellead.com", password: 'senha2'},
         {id: 3, name: "user3", email: "user3@dellead.com", password: 'senha3'}
     ]
+
+    getAll(){
+
+    }
+
+    getbyId(id: number){
+
+    }
+
+    create(user: CreateUserDto){
+
+    }
+
+    update(user: CreateUserDto){
+
+    }
 }
