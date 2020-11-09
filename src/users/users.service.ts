@@ -36,6 +36,10 @@ export class UsersService {
         const userArray = this.getById(user.id)
         if(userArray){
             userArray.id = user.id
+            userArray.email = user.email
+            userArray.name = user.name
+            userArray.password = user.password
+            userArray.profilePicture = user.profilePicture
         }
         return userArray
     }
